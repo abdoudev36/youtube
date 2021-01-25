@@ -1,0 +1,27 @@
+.main-wrapper {
+  height: 100vh;
+  background-image: url('../img/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.signup-form {
+  min-height: 400px;
+  width: 500px;
+  padding: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.signup-form .form-group {
+  margin-bottom: 1.3rem;
+}
+
+.signup-form .form-group .form-control, .submit-btn {
+  height: 50px;
+}
+
+.signup-form .form-group .form-control::placeholder {
+  text-transform: capitalize;
+}
