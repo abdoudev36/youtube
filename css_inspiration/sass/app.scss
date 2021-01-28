@@ -1,0 +1,13 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Raleway:ital@0;1&display=swap');
+$f-popp: 'Poppins', sans-serif;
+$f-rale: 'Raleway', sans-serif;
+
+body {
+	font-family: $f-rale;
+}
